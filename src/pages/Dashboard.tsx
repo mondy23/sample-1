@@ -74,7 +74,7 @@ export function Dashboard() {
             </dl>
           </div>
 
-          <div className="h-44 border-t border-ink-200 px-2 pb-2 pt-3">
+          <div className="h-44 border-t border-ink-200 px-2 pb-2 pt-3 xl:h-[500px]">
             <ResponsiveContainer width="100%" height="100%">
               <BarChart data={salesTrend} margin={{ top: 4, right: 8, left: 4, bottom: 0 }}>
                 <CartesianGrid vertical={false} stroke="#EDEFEC" />
